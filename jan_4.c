@@ -9,3 +9,8 @@ int main()
     printf("chitkara\tuniversity \nharshit \n");
     printf("%d", sum);
 }
+
+//notes
+
+// variable- is a container which holds either data or values
+// datatype- which defines the type of data
