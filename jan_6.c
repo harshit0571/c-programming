@@ -33,7 +33,7 @@ int main()
         res = var1 / var2;
         printf("%d", res);
     }
-    else
+    else if (ch > 4 || ch < 1)
     {
         printf("wrong choice");
     }
