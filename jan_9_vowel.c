@@ -7,10 +7,10 @@ int main()
     scanf("%c", &ch);
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
     {
-        printf("is a vowel %c", ch);
+        printf("vowel %c", ch);
     }
     else
     {
-        printf("is a consonent %c", ch);
+        printf("consonent %c", ch);
     }
 }
