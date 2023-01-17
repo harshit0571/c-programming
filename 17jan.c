@@ -16,10 +16,11 @@ int main()
     //         printf("%d", j);
     //         printf(" ");
     //     }
-    //     printf("\n");
+    //     prin0tf("\n");
     // }
-
-    for (i = 10; i > 0; i -= 2)
+    int n;
+    scanf("%d", &n);
+    for (i = 2 * n; i > 0; i -= 2)
     {
         for (j = i - 1; j > 0; j -= 2)
         {
