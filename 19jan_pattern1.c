@@ -72,4 +72,54 @@ int main()
     //     k = k - 2;
     //     printf("\n");
     // }
+
+    // for (i = 1; i <= n; i++)
+    // {
+    //     if (i == 1 || i == n)
+    //     {
+    //         for (j = 65; j < 65 + n; j++)
+    //         {
+    //             printf("%c", j);
+    //         }
+    //     }
+    //     else
+    //     {
+    //         printf("%c", 65);
+    //         for (j = 1; j < n - 1; j++)
+    //         {
+    //             printf("_");
+    //         }
+    //         printf("%c", 65 + n - 1);
+    //     }
+
+    //     printf("\n");
+    // }
+
+    // for (i = 0; i <= 2 * n - 1; i++)
+    // {
+    //     if (i <= n)
+    //     {
+    //         for (j = 1; j <= n - i; j++)
+    //         {
+    //             printf("_");
+    //         }
+    //         for (j = 1; j <= i; j++)
+    //         {
+    //             printf("%d", j);
+    //         }
+    //         printf("\n");
+    //     }
+    //     else
+    //     {
+    //         for (j = 1; j <= i - n; j++)
+    //         {
+    //             printf("_");
+    //         }
+    //         for (j = 1; j <= 2 * n - i; j++)
+    //         {
+    //             printf("%d", j);
+    //         }
+    //         printf("\n");
+    //     }
+    // }
 }
