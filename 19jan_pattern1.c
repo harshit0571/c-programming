@@ -36,7 +36,7 @@ int main()
     //     {
     //         printf("_");
     //     }
-    //     for (j = n - i + 1; j <= 5; j++)
+    //     for (j = n - i + 1; j <= n; j++)
     //     {
     //         printf("%d", j);
     //     }
@@ -65,7 +65,7 @@ int main()
     //     {
     //         printf("_");
     //     }
-    //     for (j = n - i + 1; j <= 5; j++)
+    //     for (j = n - i + 1; j <= n; j++)
     //     {
     //         printf("%d", k);
     //     }
