@@ -1,11 +1,15 @@
 #include <stdio.h>
-
 int main()
 {
-    int x = -1;
+    int pri, rate, tume, interest;
+    char ch;
     do
     {
-        printf("hello \n");
-        x--;
-    } while (x >= 0);
+        scanf("%d %d %d", &pri, &rate, &tume);
+        interest = (pri * rate * tume) / 100;
+        printf("%d", interest);
+
+        printf("do you want to continue? \n");
+        scanf(" %c", &ch);
+    } while (ch == 'Y');
 }
