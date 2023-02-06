@@ -19,7 +19,7 @@ int count=0;
     }
 
     // 4321
-    // 123
+    // 1234
 int j;
     while(sum>0){
         if(count==4){
@@ -37,7 +37,6 @@ int j;
         else if(count==2){
             j=sum%10;
             if(j==1){
-
                 sum=sum/10;
                 j=sum%10;
                 if(j==0 || j==1 || j==2 || j==3){
