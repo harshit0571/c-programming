@@ -2,6 +2,7 @@
   "files.associations": {
     "stdio.h": "c",
     "string.h": "c",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "FEB7.C": "cpp"
   }
 }
