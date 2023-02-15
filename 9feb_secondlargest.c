@@ -26,7 +26,8 @@ int main()
     {
         max_ = max(max_, arr[i]);
     }
-    int ans = -9999999;
+    int ans;
+
     for (i = 0; i < n; i++)
     {
         if (arr[i] != max_)
