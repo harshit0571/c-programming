@@ -5,7 +5,7 @@ int main()
     char str[30];
     gets(str);
     int x = strlen(str);
-    for (int i = 0; i < x / 2; i++)
+    for (int i = 3; i < x / 2; i++)
     {
         char y;
         y = str[i];
