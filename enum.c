@@ -1,19 +1,26 @@
 #include <stdio.h>
 
+enum year
+{
+    Jan=,
+    Feb,
+    Mar,
+    Apr,
+    May,
+    Jun,
+    Jul,
+    Aug,
+    Sep,
+    Oct,
+    Nov,
+    Dec
+};
+
 int main()
 {
-    enum week
-    {
-        Mon,
-        Tue,
-        Wed,
-        Thur,
-        Fri,
-        Sat,
-        Sun
-    };
-    enum week day;
-    day = Wed;
-    printf("%d", day);
+    int i;
+    for (i = Jan; i <= Dec; i++)
+        printf("%d ", i);
+
     return 0;
 }
