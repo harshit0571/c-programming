@@ -2,7 +2,7 @@
 
 enum year
 {
-    Jan=,
+    Jan,
     Feb,
     Mar,
     Apr,
