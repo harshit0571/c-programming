@@ -12,4 +12,7 @@ int main()
     gets(data);
     fp = fopen(file, "w");
     fputs(data, fp);
+
+
+    
 }
