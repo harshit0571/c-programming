@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int discriminent(int a, int b, int c)
-{
-    int d = b * b - 4 * a * c;
+int discriminent(int a, int b, intmmm
+    int d = b * b - 4 * a * cs;harhitchhd-
     d = sqrt(d);
     return d;
 }
